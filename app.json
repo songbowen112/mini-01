@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/favorite/favorite",
+    "pages/setting/setting",
+    "pages/user/user",
+    "pages/logs/logs"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "我的应用",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#000"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/home.png",
+      "selectedIconPath": "icons/home-filling.png"
+    },
+    {
+      "pagePath": "pages/favorite/favorite",
+      "text": "收藏",
+      "iconPath": "icons/favorite.png",
+      "selectedIconPath": "icons/favorite-filling.png"
+    },
+    {
+      "pagePath": "pages/setting/setting",
+      "text": "设置",
+      "iconPath": "icons/setting.png",
+      "selectedIconPath": "icons/setting-filling.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "个人",
+      "iconPath": "icons/user.png",
+      "selectedIconPath": "icons/user-filling.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
