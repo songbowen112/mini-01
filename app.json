@@ -49,7 +49,7 @@
       "selectedIconPath": "icons/user-filling.png"
     }],
     "color": "#fff000",
-    "selectedColor":"#000000",
+    "selectedColor":"#00099f",
     "backgroundColor":"#0091ff",
     "borderStyle":"white",
     "position":"top"

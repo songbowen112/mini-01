@@ -2,8 +2,8 @@
   "usingComponents": {},
   "backgroundTextStyle": "light",
   "navigationBarBackgroundColor": "#ff9400",
-  "navigationBarTitleText": "demo01",
+  "navigationBarTitleText": "我的应用-demo01",
   "navigationBarTextStyle": "white",
-  "enablePullDownRefresh": true,
+  "enablePullDownRefresh": false,
   "backgroundColor": "#fff"
 }
