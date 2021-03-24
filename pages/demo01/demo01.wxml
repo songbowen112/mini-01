@@ -20,8 +20,8 @@
 <view data-num="{{number}}">自定义属性</view>
 <!--6 使用bool类型充当属性-->
 <view>
-  <checkbox checked="true">北京</checkbox>
-  <checkbox>山西</checkbox>
+  <checkbox checked="{{!isChecked}}">北京</checkbox>
+  <checkbox checked="{{isChecked}}">山西</checkbox>
   <checkbox>上海</checkbox>
 </view>
 

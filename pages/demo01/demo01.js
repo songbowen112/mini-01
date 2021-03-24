@@ -12,7 +12,8 @@ Page({
       name:"秀儿",
       age:23,
       gender:"女",
-    }
+    },
+    isChecked:true
   },
 
   /**
