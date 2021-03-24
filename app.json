@@ -1,6 +1,8 @@
 {
   "pages":[
     "pages/index/index",
+
+    "pages/demo01/demo01",
     "pages/favorite/favorite",
     "pages/setting/setting",
     "pages/user/user",
@@ -39,7 +41,18 @@
       "text": "个人",
       "iconPath": "icons/user.png",
       "selectedIconPath": "icons/user-filling.png"
-    }]
+    },
+    {
+      "pagePath": "pages/demo01/demo01",
+      "text": "调试",
+      "iconPath": "icons/user.png",
+      "selectedIconPath": "icons/user-filling.png"
+    }],
+    "color": "#fff000",
+    "selectedColor":"#000000",
+    "backgroundColor":"#0091ff",
+    "borderStyle":"white",
+    "position":"top"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

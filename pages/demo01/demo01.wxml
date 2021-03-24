@@ -1,0 +1,14 @@
+<!--pages/demo01/demo01.wxml-->
+<!-- <text>pages/demo01/demo01.wxml</text> -->
+
+<!--1.text标签相当于-->
+<text>你好，欢迎</text>
+<text>{{hello}}</text>
+<view>{{number}}</view>
+<view>你是男人吗？{{isMan}}</view>
+<view>{{person.name}}</view>
+<view>{{person.age}}</view>
+<view>{{person.gender}}</view>
+
+
+
