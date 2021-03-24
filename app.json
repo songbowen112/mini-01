@@ -52,7 +52,7 @@
     "selectedColor":"#00099f",
     "backgroundColor":"#0091ff",
     "borderStyle":"white",
-    "position":"top"
+    "position":"bottom"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
