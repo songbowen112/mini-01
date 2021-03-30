@@ -24,6 +24,15 @@
   <checkbox checked="{{isChecked}}">山西</checkbox>
   <checkbox>上海</checkbox>
 </view>
+<!--7 wx:if 和 hidden-->
+<view wx:if="{{person.age > 18}}">成年可见</view>
+<view hidden="{{person.age < 18}}">未成年不可见</view>
+
+
+<!---->
+<view wx:for="{{studentList}}" wx:key="item">
+  <view>No.{{index+1}}号选手--{{item}}</view>
+</view>
 
 
 

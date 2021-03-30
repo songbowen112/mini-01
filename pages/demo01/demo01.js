@@ -13,7 +13,8 @@ Page({
       age:23,
       gender:"女",
     },
-    isChecked:true
+    isChecked:true,
+    studentList:["张三","李四","王五","赵六","钱七"]
   },
 
   /**
